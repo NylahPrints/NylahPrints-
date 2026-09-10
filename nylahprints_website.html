@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NylahPrints | Custom 3D Printed Products</title>
+<meta name="description" content="Handmade 3D printed products, personalised gifts and useful accessories.">
+<style>
+:root{--bg:#0b0d12;--card:#141821;--text:#f6f7fb;--muted:#aab1c0;--accent:#7c5cff;--accent2:#9b87ff;--border:#252b38}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--text)}
+a{color:inherit;text-decoration:none}.container{max-width:1120px;margin:auto;padding:0 22px}
+nav{position:sticky;top:0;z-index:10;background:rgba(11,13,18,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.nav{height:70px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:900;font-size:21px}.logo span{color:var(--accent)}
+.navlinks{display:flex;gap:25px;color:var(--muted);font-size:14px}.navlinks a:hover{color:white}
+.btn{display:inline-block;padding:13px 19px;border-radius:12px;background:var(--accent);font-weight:800;border:0;cursor:pointer}.btn:hover{background:var(--accent2)}
+.hero{padding:92px 0 75px;background:radial-gradient(circle at 75% 25%,rgba(124,92,255,.22),transparent 35%)}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}.eyebrow{color:#b9adff;font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(42px,6vw,72px);line-height:.98;margin:14px 0 22px;letter-spacing:-.045em}.hero p{font-size:19px;color:var(--muted);line-height:1.65;max-width:610px}
+.hero-actions{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}.btn.secondary{background:transparent;border:1px solid var(--border)}
+.showcase{height:410px;border-radius:28px;background:linear-gradient(145deg,#191d28,#10131a);border:1px solid var(--border);display:grid;place-items:center;position:relative;overflow:hidden}
+.cube{width:190px;height:190px;border-radius:32px;background:linear-gradient(135deg,var(--accent),#352a79);transform:rotate(-10deg);box-shadow:30px 35px 70px rgba(0,0,0,.45);display:grid;place-items:center;font-size:78px}
+.float{position:absolute;background:#202633;border:1px solid #303747;padding:11px 15px;border-radius:12px;font-weight:700}.f1{top:40px;left:25px}.f2{bottom:45px;right:24px}
+section{padding:76px 0}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:28px;gap:20px}.section-head h2{font-size:36px;margin:0}.section-head p{color:var(--muted);margin:0}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.product{background:var(--card);border:1px solid var(--border);border-radius:18px;overflow:hidden;transition:.2s}.product:hover{transform:translateY(-4px);border-color:#3b4353}
+.product-img{height:210px;display:grid;place-items:center;background:linear-gradient(135deg,#1d2230,#10131a);font-size:72px}.product-body{padding:20px}.product h3{margin:0 0 8px}.product p{color:var(--muted);line-height:1.5;font-size:14px}.price{font-size:20px;font-weight:900;margin:15px 0}.buy{width:100%;text-align:center}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{padding:25px;background:var(--card);border:1px solid var(--border);border-radius:18px}.feature-icon{font-size:30px}.feature h3{margin-bottom:7px}.feature p{color:var(--muted);line-height:1.55}
+.cta{background:linear-gradient(135deg,#19162e,#131821);border:1px solid var(--border);border-radius:25px;padding:45px;text-align:center}.cta h2{font-size:38px;margin:0 0 12px}.cta p{color:var(--muted);margin-bottom:25px}
+footer{border-top:1px solid var(--border);padding:35px 0;color:var(--muted);font-size:14px}.footer{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr}.showcase{height:300px}.products,.features{grid-template-columns:1fr}.navlinks{display:none}.hero{padding-top:60px}.cta{padding:32px 20px}}
+</style>
+</head>
+<body>
+<nav><div class="container nav"><a class="logo" href="#">Nylah<span>Prints</span></a><div class="navlinks"><a href="#shop">Shop</a><a href="#about">Why us</a><a href="#custom">Custom</a><a href="#contact">Contact</a></div><a class="btn" href="#shop">Shop now</a></div></nav>
+
+<header class="hero"><div class="container hero-grid">
+<div><div class="eyebrow">Made to order • UK</div><h1>3D prints made for your world.</h1><p>Unique, practical and personalised 3D printed products. Choose a design or ask us to create something custom.</p><div class="hero-actions"><a class="btn" href="#shop">Browse products</a><a class="btn secondary" href="#custom">Request a custom print</a></div></div>
+<div class="showcase"><div class="cube">✦</div><div class="float f1">Personalised</div><div class="float f2">Made to order</div></div>
+</div></header>
+
+<section id="shop"><div class="container"><div class="section-head"><div><h2>Popular prints</h2><p>Replace these with your own products and prices.</p></div></div>
+<div class="products">
+<article class="product"><div class="product-img">🪴</div><div class="product-body"><h3>Modern Plant Pot</h3><p>Stylish geometric planter, printed to order.</p><div class="price">£12.99</div><a class="btn buy" href="mailto:YOUR-EMAIL@example.com?subject=Order%20-%20Modern%20Plant%20Pot">Order now</a></div></article>
+<article class="product"><div class="product-img">🔑</div><div class="product-body"><h3>Personalised Keyring</h3><p>Add a name, word or short message in your choice of colour.</p><div class="price">£6.99</div><a class="btn buy" href="mailto:YOUR-EMAIL@example.com?subject=Order%20-%20Personalised%20Keyring">Order now</a></div></article>
+<article class="product"><div class="product-img">📱</div><div class="product-body"><h3>Desk Phone Stand</h3><p>Compact stand for your phone, ideal for home or office.</p><div class="price">£9.99</div><a class="btn buy" href="mailto:YOUR-EMAIL@example.com?subject=Order%20-%20Desk%20Phone%20Stand">Order now</a></div></article>
+</div></div></section>
+
+<section id="about"><div class="container"><div class="section-head"><div><h2>Why buy from us?</h2><p>Small-batch 3D printing with attention to detail.</p></div></div>
+<div class="features"><div class="feature"><div class="feature-icon">🛠️</div><h3>Made to order</h3><p>Products are printed when you order, helping us offer more designs and colours without holding huge stock.</p></div><div class="feature"><div class="feature-icon">🎨</div><h3>Your choice</h3><p>Pick colours and request personalisation on selected products.</p></div><div class="feature"><div class="feature-icon">🇬🇧</div><h3>UK based</h3><p>Printed and packed in the UK, with straightforward UK delivery.</p></div></div></div></section>
+
+<section id="custom"><div class="container"><div class="cta"><h2>Got an idea?</h2><p>Send us a message with what you want printed. We can discuss size, colour, personalisation and price.</p><a class="btn" href="mailto:YOUR-EMAIL@example.com?subject=Custom%203D%20Print%20Request">Request a custom print</a></div></div></section>
+
+<footer id="contact"><div class="container footer"><div>© 2026 NylahPrints. All rights reserved.</div><div><a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a></div></div></footer>
+</body>
+</html>
